@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: myapp
+  database: mydb
   pool: 5
-  username: fluke
+  username: myuser
   password: 1234

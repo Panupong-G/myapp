@@ -3,6 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
+  set :application, "myapp"
   server "192.46.230.36", user: "fluke", roles: %w{app db web}, my_property: :my_value
   set :branch, ENV['BRANCH'] || 'main'
   set :deploy_to, "/var/www/myapp"
